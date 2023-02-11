@@ -1,0 +1,11 @@
+# Graph
+
+## Shortest Paths and MST Algorithms
+
+| Problem        | Algorithm                       | Runtime (if E > V) | Notes                           |
+|----------------|---------------------------------|--------------------|---------------------------------|
+| Shortest Paths | Dijkstra's                      | O(E log V)         | Fails for negative weight edges |
+| MST            | Prim's                          | O(E log V)         | Analogous to Dijkstra's         |
+| MST            | Kruskal's                       | O(E log E)         | Uses WQUPC                      |
+| MST            | Kruskal's with pre-sorted edges | O(E log*V)         | Uses WQUPC                      |
+
